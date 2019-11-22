@@ -1,0 +1,16 @@
+{
+  "name": "padoka",
+  "version": "1.0.0",
+  "description": "dektop application to stores",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch * --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rodrigo rolim veras",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "nodemon": "^2.0.1"
+  }
+}
