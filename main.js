@@ -8,7 +8,7 @@ let mainWindow;
 
 function createWindow () {
   globalShortcut.register('f5', function() {
-		console.log('f5 is pressed')
+
 		mainWindow.reload()
 	})
   mainWindow = new BrowserWindow({autoHideMenuBar: true,
